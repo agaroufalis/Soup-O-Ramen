@@ -1,0 +1,13 @@
+Ramune,2.50
+Sake,5.00
+Sapporo,4.50
+Karrage,6.00
+Edamame,4.00
+Tempura,7.00
+Takoyaki,6.50
+Ramen_Small,9.00
+Ramen_Large,12.00
+Bean Sprouts,1.00
+Naruto,1.50
+Egg,1.25
+Corn,1.00
