@@ -209,7 +209,8 @@ if choice == "Manage Orders":
                 0 if "t" in order_obj.place
                 else 1 if order_obj.place else 0
             ),
-            key=f"place_type_{idx}"
+            key=f"place_type_{idx}",
+            disabled=is_saved
         )
         if place_type == "Dine-in":
             table = st.number_input(
