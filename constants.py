@@ -1,6 +1,14 @@
-MENU_FILE = "menu.txt"
-DATA_FILE = "order_log.txt"
-HUMAN_REPORT = "receipt.txt"
+import os
+
+BASE_DIR = os.path.dirname(__file__)
+
+DATA_FOLDER = os.path.join(BASE_DIR, "data")
+
+MENU_FILE = os.path.join(DATA_FOLDER, "menu.txt")
+
+DATA_FILE = os.path.join(DATA_FOLDER, "order_log.txt")
+
+HUMAN_REPORT = os.path.join(DATA_FOLDER, "receipt.txt")
 
 TAX_RATE = 0.05
 

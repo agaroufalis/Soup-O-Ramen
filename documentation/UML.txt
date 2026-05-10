@@ -1,0 +1,82 @@
++--------------------------------------------------+
+|                     Order                        |
++--------------------------------------------------+
+| - __place : str                                  |
+| - __drinks : str                                 |
+| - __apps : str                                   |
+| - __ramen : tuple                                |
+|   (size, base, spice, addon)                     |
++--------------------------------------------------+
+| + __init__(place)                                |
+|                                                  |
+| + get_place() : str                              |
+| + get_drinks() : str                             |
+| + get_apps() : str                               |
+| + get_ramen() : tuple                            |
+|                                                  |
+| + set_place(place) : None                        |
+| + set_drinks(drinks) : None                      |
+| + set_apps(apps) : None                          |
+| + set_ramen(ramen) : None                        |
+|                                                  |
+| + display_order() : None                         |
+| + __str__() : str                                |
++--------------------------------------------------+
+
+
+                uses
+                  |
+                  |
+                  v
+
+
++--------------------------------------------------+
+|               order_functions.py                 |
++--------------------------------------------------+
+| + get_customer_info(orders)                      |
+| + take_order(order_number, orders)               |
+| + edit_order(order_number, orders)               |
+| + calculate_total(order, menu_file)              |
++--------------------------------------------------+
+
+                  |
+                  |
+                  v
+
++--------------------------------------------------+
+|                 validation.py                    |
++--------------------------------------------------+
+| + get_valid_input(prompt, valid_options)         |
+| + get_non_empty_input(prompt)                    |
+| + get_positive_int(prompt)                       |
++--------------------------------------------------+
+
+
+                  |
+                  |
+                  v
+
++--------------------------------------------------+
+|                file_functions.py                 |
++--------------------------------------------------+
+| + save_data_and_label(order,                     |
+|                       order_number,              |
+|                       total,                     |
+|                       tax)                       |
++--------------------------------------------------+
+
+
+                  |
+                  |
+                  v
+
++--------------------------------------------------+
+|                    main.py                       |
++--------------------------------------------------+
+| + main()                                         |
++--------------------------------------------------+
+| Creates and controls program flow using:         |
+| - Order class                                    |
+| - order_functions.py                             |
+| - file_functions.py                              |
++--------------------------------------------------+

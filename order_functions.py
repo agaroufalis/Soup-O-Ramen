@@ -92,7 +92,7 @@ def take_order(order_number, orders):
 def edit_order(order_number, orders):
 
     print("\nCurrent Order:")
-    print(orders[order_number])
+    orders[order_number].display_order()
 
     choice = get_valid_input(
         "Edit order? (Y/N): ",
