@@ -2,11 +2,12 @@ import streamlit as st
 import datetime
 import os
 from dataclasses import dataclass
+import requests
 
 # Constants
 MENU_FILE = (
-    "/Users/alexisgaroufalis/Library/Mobile Documents/"
-    "com~apple~CloudDocs/add100/SoupFinal/Soup-O-Ramen/menu.txt"
+    "https://raw.githubusercontent.com/agaroufalis/Soup-O-Ramen/"
+    "main/data/menu.txt"
 )
 DATA_FILE = (
     "/Users/alexisgaroufalis/Library/Mobile Documents/"
@@ -56,10 +57,19 @@ def calculate_total(order, menu_file):
         ramen_price = 0
         addon_price = 0
         menu_prices = {}
-        with open(menu_file, "r") as f:
-            for line in f:
-                name, price = line.strip().split(",")
-                menu_prices[name] = float(price)
+        
+        # Fetch menu from GitHub if URL, otherwise read local file
+        if menu_file.startswith("http"):
+            response = requests.get(menu_file)
+            response.raise_for_status()
+            lines = response.text.strip().split("\n")
+        else:
+            with open(menu_file, "r") as f:
+                lines = f.readlines()
+        
+        for line in lines:
+            name, price = line.strip().split(",")
+            menu_prices[name] = float(price)
 
         if order.drinks and order.drinks != "None":
             total += menu_prices.get(order.drinks, 0)
