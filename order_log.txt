@@ -1,0 +1,17 @@
+100,t3s1,Ramune,Karrage,('Large', 'Red', 'Medium', 'Naruto'),0.00
+100,dylan,Ramune,Edamame,('Small', 'Red', 'Medium', 'Naruto'),0.00
+101,t2s2,Sake,Edamame,('Small', 'White', 'Medium', 'Bean Sprouts'),0.00
+102,alexis,Sapporo,Edamame,('Large', 'Red', 'Medium', 'None'),0.00
+103,dyaln,Ramune,Tempura,Large White Mild None,0.00
+104,dafasdfds,Sake,Tempura,Small White Mild None,0.00
+105,dfa sdf asdfas,Ramune,Edamame,Small White Mild None,0.00
+106,sdf asfdas fdas,Ramune,Tempura,Large White Mild None,0.00
+107,askdfj aksdfj asdf,Ramune,Edamame,Small Red Mild None,16.27
+108,dfadfasdfas,Ramune,Karrage,Small White Mild Naruto,19.95
+110,adfafa,Sake,Karrage,Large White Mild Naruto,25.73
+111,dsfasdfasdfadf,Ramune,Karrage,Small White Mild None,18.38
+112,t2s3,Ramune,None,Small Red Medium Corn,13.12
+113,vasdfasdfasdf,Ramune,Edamame,Small White Medium Egg,17.59
+114,asdfasdfas,Sapporo,Edamame,Large Red Medium None,21.52
+115,dfasdfs,Sake,Edamame,Large Red Mild None,22.05
+100,t2s3,Ramune,Takoyaki,('Large', 'Red', 'Mild', 'None'),22.05

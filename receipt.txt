@@ -1,0 +1,11 @@
+SOUP-O-RAMEN RECEIPT - 2026-05-10
+ORDER #: 100
+LOCATION: t2s3
+
+ITEMS:
+ Drink: Ramune
+ App: Takoyaki
+ Ramen: ('Large', 'Red', 'Mild', 'None')
+
+TAX: $1.05
+TOTAL: $22.05
