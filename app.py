@@ -288,11 +288,18 @@ def render_order_row(order_dict, index):
         if is_saved and not is_submitted:
             if st.button(f"Submit {num}", key=f"submit_{index}"):
                 receipt = save_order(order_obj, num, tot, tax)
+
+                # Mark order as submitted
+                st.session_state.orders[index]['is_submitted'] = True
+
+                # Display confirmation and receipt
                 st.success(f"✅ Order {num} submitted!")
                 st.divider()
                 st.text(receipt)
                 st.divider()
-                st.session_state.orders[index]['is_submitted'] = True
+
+                # Immediately refresh UI so Edit/Submit buttons disappear
+                st.rerun()
         elif not is_saved and not is_submitted:
             if st.button(f"Delete {num}", key=f"delete_{index}", type="secondary"):
                 st.session_state.delete_confirm = index
