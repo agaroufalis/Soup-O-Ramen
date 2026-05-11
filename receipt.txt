@@ -1,0 +1,11 @@
+SOUP-O-RAMEN RECEIPT - 2026-05-10
+ORDER #: 107
+LOCATION: t1s1
+
+ITEMS:
+ Drink: Ramune
+ App: Edamame
+ Ramen: Large White Medium Bean Sprouts
+
+TAX: $0.98
+TOTAL: $20.48

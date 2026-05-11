@@ -1,0 +1,7 @@
+100,t1s1,Ramune,Tempura,Large Red Medium Egg,23.89
+101,dsfadsfasD,Sapporo,Tempura,Large Red Medium Bean Sprouts,25.73
+102,t4s4,None,None,Large Red Mild Egg,13.91
+103,t1s1,Sake,None,Small Red Mild None,14.70
+105,t2s3,None,None,Small White Mild None,9.45
+106,t1s1,Ramune,None,Small White Mild None,12.07
+107,t1s1,Ramune,Edamame,Large White Medium Bean Sprouts,20.48
