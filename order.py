@@ -61,9 +61,8 @@ class Order:
 
         print("\n===== CURRENT ORDER =====")
 
-        print(f"1. Drink: {self.__drinks}")
-        print(f"2. App: {self.__apps}")
-        print(f"3. Size: {self.__size}")
-        print(f"4. Base: {self.__base}")
-        print(f"5. Spice: {self.__spice}")
-        print(f"6. Add-on: {self.__addon}")     
+        print(f"1. Place: {self.__place}")
+        print(f"2. Drink: {self.__drinks}")
+        print(f"3. App: {self.__apps}")
+        print(f"4. Ramen: {self.__ramen}")
+         
