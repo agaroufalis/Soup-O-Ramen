@@ -9,14 +9,9 @@ MENU_FILE = (
     "https://raw.githubusercontent.com/agaroufalis/Soup-O-Ramen/"
     "main/data/menu.txt"
 )
-DATA_FILE = (
-    "/Users/alexisgaroufalis/Library/Mobile Documents/"
-    "com~apple~CloudDocs/add100/SoupFinal/Soup-O-Ramen/order_log.txt"
-)
-HUMAN_REPORT = (
-    "/Users/alexisgaroufalis/Library/Mobile Documents/"
-    "com~apple~CloudDocs/add100/SoupFinal/Soup-O-Ramen/receipt.txt"
-)
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_FILE = os.path.join(ROOT_DIR, "order_log.txt")
+HUMAN_REPORT = os.path.join(ROOT_DIR, "receipt.txt")
 TAX_RATE = 0.05
 
 DRINK_OPTIONS = ("None", "Ramune", "Sake", "Sapporo")
