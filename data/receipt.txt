@@ -1,11 +1,11 @@
-SOUP-O-RAMEN RECEIPT - 2026-05-10
+SOUP-O-RAMEN RECEIPT - 2026-05-11
 ORDER #: 100
 LOCATION: dylan
 
 ITEMS:
- Drink: Ramune
- App: None
- Ramen: ('Large', 'White', 'Mild', 'Corn')
+ Drink: None
+ App: Edamame
+ Ramen: ('Large', 'White', 'Mild', 'None')
 
-TAX: $0.78
-TOTAL: $16.27
+TAX: $0.80
+TOTAL: $16.80

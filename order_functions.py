@@ -1,4 +1,4 @@
-from order import Order
+from blueprints import Order
 
 from validation import (
     get_valid_input,

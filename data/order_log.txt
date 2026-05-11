@@ -16,3 +16,5 @@
 115,dfasdfs,Sake,Edamame,Large Red Mild None,22.05
 100,t2s3,Ramune,Takoyaki,('Large', 'Red', 'Mild', 'None'),22.05
 100,dylan,Ramune,None,('Large', 'White', 'Mild', 'Corn'),16.27
+100,t2s3,Ramune,None,('Large', 'White', 'Mild', 'Corn'),16.27
+100,dylan,None,Edamame,('Large', 'White', 'Mild', 'None'),16.80
